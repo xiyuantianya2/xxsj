@@ -1,0 +1,11 @@
+{
+  "id": "healing_light",
+  "name": "治愈之光",
+  "description": "恢复30点生命值",
+  "type": 2,
+  "power": 30,
+  "mp_cost": 15,
+  "cooldown": 5,
+  "realm_required": 1,
+  "elements": ["light"]
+}

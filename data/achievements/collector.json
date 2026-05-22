@@ -1,0 +1,7 @@
+{
+  "id": "collector",
+  "name": "收藏家",
+  "description": "收集10种不同的物品",
+  "condition": {"type": "items_collected", "count": 10},
+  "reward": {"cultivation": 150}
+}

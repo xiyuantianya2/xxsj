@@ -1,0 +1,16 @@
+{
+  "id": "quest_001",
+  "name": "初出茅庐",
+  "description": "帮助村长采集5株灵草",
+  "giver_npc": "village_elder",
+  "state": 0,
+  "objectives": [
+    {"type": "collect", "target": "spirit_herb", "required": 5, "current": 0}
+  ],
+  "rewards": {
+    "cultivation": 50,
+    "items": [{"id": "potion_hp_small", "quantity": 2}]
+  },
+  "prerequisites": [],
+  "is_main_quest": true
+}

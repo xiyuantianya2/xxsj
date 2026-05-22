@@ -1,0 +1,17 @@
+{
+  "id": "mountain_path",
+  "name": "青云山道",
+  "description": "通往青云山的险峻山路，两旁古木参天。",
+  "tilemap": "res://assets/tilemaps/mountain_path.tres",
+  "npcs": [
+    {"id": "mountain_guardian", "position": [8, 8], "dialogue": "guardian_warning"}
+  ],
+  "exits": [
+    {"direction": "down", "target_map": "village", "target_position": [10, 18]},
+    {"direction": "up", "target_map": "mountain_peak", "target_position": [10, 5]}
+  ],
+  "encounters": [
+    {"enemy": "mountain_tiger", "chance": 0.2},
+    {"enemy": "spirit_snake", "chance": 0.15}
+  ]
+}

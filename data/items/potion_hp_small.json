@@ -1,0 +1,10 @@
+{
+  "id": "potion_hp_small",
+  "name": "小还丹",
+  "description": "恢复50点生命值",
+  "type": 0,
+  "effect": {"type": "heal", "value": 50},
+  "stackable": true,
+  "max_stack": 99,
+  "value": 10
+}

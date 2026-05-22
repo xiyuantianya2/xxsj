@@ -1,0 +1,15 @@
+{
+  "id": "spirit_snake",
+  "name": "灵蛇",
+  "hp": 30,
+  "max_hp": 30,
+  "attack": 20,
+  "defense": 3,
+  "speed": 18,
+  "exp_reward": 30,
+  "gold_reward": 15,
+  "drops": [
+    {"id": "snake_venom", "chance": 0.7},
+    {"id": "spirit_core_low", "chance": 0.15}
+  ]
+}

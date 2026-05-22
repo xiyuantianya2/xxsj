@@ -1,0 +1,15 @@
+{
+  "id": "forest_spider",
+  "name": "森林蜘蛛",
+  "hp": 40,
+  "max_hp": 40,
+  "attack": 18,
+  "defense": 8,
+  "speed": 15,
+  "exp_reward": 25,
+  "gold_reward": 12,
+  "drops": [
+    {"id": "spider_silk", "chance": 0.6},
+    {"id": "spirit_core_low", "chance": 0.1}
+  ]
+}

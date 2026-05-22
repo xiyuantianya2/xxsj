@@ -1,0 +1,10 @@
+{
+  "id": "potion_mp_small",
+  "name": "小灵丹",
+  "description": "恢复30点灵力",
+  "type": 0,
+  "effect": {"type": "mp_restore", "value": 30},
+  "stackable": true,
+  "max_stack": 99,
+  "value": 15
+}

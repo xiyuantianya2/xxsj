@@ -1,0 +1,11 @@
+{
+  "id": "qingyun",
+  "name": "青云宗",
+  "description": "以剑道闻名的修仙宗门，门中高手如云。",
+  "ranks": ["外门弟子", "内门弟子", "核心弟子", "长老", "宗主"],
+  "quests": ["sect_quest_001", "sect_quest_002"],
+  "benefits": {
+    "cultivation_bonus": 0.1,
+    "skills": ["sword_art_basic"]
+  }
+}

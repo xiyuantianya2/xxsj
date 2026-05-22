@@ -1,0 +1,7 @@
+{
+  "id": "realm_breakthrough",
+  "name": "突破自我",
+  "description": "突破到炼气期",
+  "condition": {"type": "realm_reached", "count": 1},
+  "reward": {"cultivation": 200}
+}

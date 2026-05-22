@@ -1,0 +1,16 @@
+{
+  "id": "quest_002",
+  "name": "山道试炼",
+  "description": "在山道上击败3只妖兽",
+  "giver_npc": "mountain_guardian",
+  "state": 0,
+  "objectives": [
+    {"type": "kill", "target": "any", "required": 3, "current": 0}
+  ],
+  "rewards": {
+    "cultivation": 100,
+    "items": [{"id": "cultivation_pill", "quantity": 1}]
+  },
+  "prerequisites": [{"type": "quest_completed", "value": "quest_001"}],
+  "is_main_quest": true
+}

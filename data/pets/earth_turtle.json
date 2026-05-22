@@ -1,0 +1,12 @@
+{
+  "id": "earth_turtle",
+  "name": "玄武龟",
+  "level": 1,
+  "hp": 200,
+  "max_hp": 200,
+  "attack": 10,
+  "defense": 30,
+  "skills": ["shell_defense"],
+  "element": "earth",
+  "description": "一只防御力极强的灵龟"
+}

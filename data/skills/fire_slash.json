@@ -1,0 +1,11 @@
+{
+  "id": "fire_slash",
+  "name": "烈焰斩",
+  "description": "以火焰之力斩击敌人，造成20点伤害",
+  "type": 0,
+  "power": 20,
+  "mp_cost": 10,
+  "cooldown": 3,
+  "realm_required": 1,
+  "elements": ["fire"]
+}

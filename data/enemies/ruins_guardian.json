@@ -1,0 +1,15 @@
+{
+  "id": "ruins_guardian",
+  "name": "遗迹守卫",
+  "hp": 150,
+  "max_hp": 150,
+  "attack": 35,
+  "defense": 20,
+  "speed": 8,
+  "exp_reward": 80,
+  "gold_reward": 40,
+  "drops": [
+    {"id": "ancient_relic", "chance": 0.3},
+    {"id": "spirit_core_high", "chance": 0.2}
+  ]
+}

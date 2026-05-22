@@ -1,0 +1,15 @@
+{
+  "id": "spirit_wolf",
+  "name": "灵狼",
+  "hp": 50,
+  "max_hp": 50,
+  "attack": 15,
+  "defense": 5,
+  "speed": 12,
+  "exp_reward": 20,
+  "gold_reward": 10,
+  "drops": [
+    {"id": "wolf_fur", "chance": 0.5},
+    {"id": "spirit_core_low", "chance": 0.1}
+  ]
+}

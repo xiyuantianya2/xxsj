@@ -1,0 +1,15 @@
+{
+  "id": "cave_bat",
+  "name": "洞穴蝙蝠",
+  "hp": 20,
+  "max_hp": 20,
+  "attack": 12,
+  "defense": 2,
+  "speed": 20,
+  "exp_reward": 15,
+  "gold_reward": 8,
+  "drops": [
+    {"id": "bat_wing", "chance": 0.7},
+    {"id": "spirit_core_low", "chance": 0.05}
+  ]
+}

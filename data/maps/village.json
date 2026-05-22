@@ -1,0 +1,17 @@
+{
+  "id": "village",
+  "name": "青云村",
+  "description": "一个宁静的修仙村落，云雾缭绕，灵气充沛。",
+  "tilemap": "res://assets/tilemaps/village.tres",
+  "npcs": [
+    {"id": "village_elder", "position": [10, 10], "dialogue": "elder_greeting"},
+    {"id": "herb_seller", "position": [15, 15], "dialogue": "herb_seller_greeting"}
+  ],
+  "exits": [
+    {"direction": "up", "target_map": "mountain_path", "target_position": [10, 20]},
+    {"direction": "right", "target_map": "forest", "target_position": [5, 10]}
+  ],
+  "encounters": [
+    {"enemy": "spirit_wolf", "chance": 0.1}
+  ]
+}

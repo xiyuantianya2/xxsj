@@ -1,0 +1,13 @@
+{
+  "id": "spirit_rabbit",
+  "name": "灵兔",
+  "level": 1,
+  "hp": 80,
+  "max_hp": 80,
+  "attack": 15,
+  "defense": 5,
+  "speed": 25,
+  "skills": ["swift_step"],
+  "element": "wind",
+  "description": "一只速度极快的灵兔"
+}

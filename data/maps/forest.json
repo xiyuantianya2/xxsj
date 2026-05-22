@@ -1,0 +1,17 @@
+{
+  "id": "forest",
+  "name": "幽暗森林",
+  "description": "一片古老的森林，树木参天，阴暗潮湿。",
+  "tilemap": "res://assets/tilemaps/forest.tres",
+  "npcs": [
+    {"id": "forest_sage", "position": [12, 12], "dialogue": "sage_wisdom"}
+  ],
+  "exits": [
+    {"direction": "left", "target_map": "village", "target_position": [20, 10]},
+    {"direction": "up", "target_map": "ancient_ruins", "target_position": [10, 15]}
+  ],
+  "encounters": [
+    {"enemy": "spirit_snake", "chance": 0.25},
+    {"enemy": "forest_spider", "chance": 0.2}
+  ]
+}

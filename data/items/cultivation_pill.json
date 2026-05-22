@@ -1,0 +1,10 @@
+{
+  "id": "cultivation_pill",
+  "name": "培元丹",
+  "description": "增加100点修为",
+  "type": 0,
+  "effect": {"type": "cultivation", "value": 100},
+  "stackable": true,
+  "max_stack": 50,
+  "value": 50
+}

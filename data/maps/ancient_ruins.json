@@ -1,0 +1,17 @@
+{
+  "id": "ancient_ruins",
+  "name": "上古遗迹",
+  "description": "一处上古修士的遗迹，灵气浓郁，危险重重。",
+  "tilemap": "res://assets/tilemaps/ruins.tres",
+  "npcs": [
+    {"id": "ruins_spirit", "position": [8, 8], "dialogue": "spirit_secret"}
+  ],
+  "exits": [
+    {"direction": "down", "target_map": "forest", "target_position": [10, 5]},
+    {"direction": "right", "target_map": "secret_cave", "target_position": [5, 5]}
+  ],
+  "encounters": [
+    {"enemy": "ruins_guardian", "chance": 0.3},
+    {"enemy": "spirit_snake", "chance": 0.2}
+  ]
+}

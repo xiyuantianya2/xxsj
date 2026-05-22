@@ -1,0 +1,7 @@
+{
+  "id": "first_battle",
+  "name": "初战告捷",
+  "description": "赢得第一场战斗",
+  "condition": {"type": "battle_won", "count": 1},
+  "reward": {"cultivation": 100}
+}

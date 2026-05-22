@@ -1,0 +1,11 @@
+{
+  "id": "xianling",
+  "name": "仙灵阁",
+  "description": "以炼丹炼器著称的修仙宗门，阁中藏有无数奇珍。",
+  "ranks": ["学徒", "弟子", "执事", "长老", "阁主"],
+  "quests": ["sect_quest_003"],
+  "benefits": {
+    "cultivation_bonus": 0.05,
+    "skills": ["alchemy_basic"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mountain_peak",
+  "name": "青云峰顶",
+  "description": "青云山最高处，云雾缭绕，灵气充沛。",
+  "tilemap": "res://assets/tilemaps/peak.tres",
+  "npcs": [
+    {"id": "peak_master", "position": [10, 10], "dialogue": "master_teaching"}
+  ],
+  "exits": [
+    {"direction": "down", "target_map": "mountain_path", "target_position": [10, 25]}
+  ],
+  "encounters": [
+    {"enemy": "cloud_dragon", "chance": 0.1}
+  ]
+}

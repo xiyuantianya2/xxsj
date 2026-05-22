@@ -1,0 +1,12 @@
+{
+  "id": "fire_bird",
+  "name": "火凤",
+  "level": 1,
+  "hp": 100,
+  "max_hp": 100,
+  "attack": 20,
+  "defense": 10,
+  "skills": ["fire_breath"],
+  "element": "fire",
+  "description": "一只拥有火焰之力的灵鸟"
+}

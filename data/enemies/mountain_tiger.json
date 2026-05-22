@@ -1,0 +1,15 @@
+{
+  "id": "mountain_tiger",
+  "name": "山虎",
+  "hp": 100,
+  "max_hp": 100,
+  "attack": 25,
+  "defense": 10,
+  "speed": 10,
+  "exp_reward": 50,
+  "gold_reward": 25,
+  "drops": [
+    {"id": "tiger_fang", "chance": 0.6},
+    {"id": "spirit_core_mid", "chance": 0.2}
+  ]
+}

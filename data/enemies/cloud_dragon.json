@@ -1,0 +1,15 @@
+{
+  "id": "cloud_dragon",
+  "name": "云龙",
+  "hp": 500,
+  "max_hp": 500,
+  "attack": 80,
+  "defense": 50,
+  "speed": 25,
+  "exp_reward": 500,
+  "gold_reward": 200,
+  "drops": [
+    {"id": "dragon_scale", "chance": 0.1},
+    {"id": "spirit_core_ultimate", "chance": 0.05}
+  ]
+}
